@@ -702,7 +702,7 @@
   
   section.ceremonia-fiesta .col-ceremonia h3:after,
   section.ceremonia-fiesta .col-fiesta h3:after {
-    background-image: url(../img/img_cinta02.svg);
+    background-image: url(../img/img_cinta02\ \(2\).svg);
     position: absolute;
     content: '';
     background-size: contain !important;
@@ -716,7 +716,7 @@
   
   section.ceremonia-fiesta .col-ceremonia h3:before,
   section.ceremonia-fiesta .col-fiesta h3:before {
-    background-image: url(../img/img_cinta01.svg);
+    background-image: url(../img/img_cinta01\ \(2\).svg);
     position: absolute;
     content: '';
     background-size: contain !important;
