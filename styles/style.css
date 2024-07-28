@@ -742,15 +742,15 @@
     font-family: var(--fuente-1);
     font-weight: var(--grosor-fuente-bold);
     color: var(--color-5);
-    font-size: 25px;
-    text-transform: uppercase;
+    font-size: 30px;
+    /* text-transform: uppercase; */
   }
   
   section.ceremonia-fiesta .info-col .info-box p {
-    font-family: var(--fuente-2);
+    font-family: var(--fuente-1);
     font-weight: var(--grosor-fuente-light);
     color: var(--color-4);
-    font-size: 20px;
+    font-size: 25px;
   }
   
   section.ceremonia-fiesta .info-col .info-box a.boton {
