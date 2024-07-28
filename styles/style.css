@@ -15,8 +15,10 @@
   
     /* Fuentes */
   
-    --fuente-1: 'Playfair Display', serif;
-    --fuente-2: 'Quicksand', sans-serif;
+    /* --fuente-1: 'Playfair Display', serif;
+    --fuente-2: 'Quicksand', sans-serif; */
+    --fuente-1:'Cookie', cursive;
+    --fuente-2:'Open Sans', sans-serif;
     /* --fuente-3:'Cookie', cursive; */
   
     --grosor-fuente-light: 300;
@@ -435,7 +437,7 @@
     font-family: var(--fuente-1);
     font-weight: var(--grosor-fuente-bold);
     color: var(--color-1);
-    font-size: 80px;
+    font-size: 95px;
     line-height: 85px;
     margin-bottom: 0;
     display: inline-block;
@@ -450,10 +452,10 @@
   section.portada .content-portada h2{
     width: 100%;
     text-align: center;
-    font-family: var(--fuente-2);
+    font-family: var(--fuente-1);
     font-weight: var(--grosor-fuente-medium);
     color: var(--color-1);
-    font-size: 35px;
+    font-size: 45px;
     line-height: 40px;
     margin-bottom: 0;
     display: inline-block;
@@ -501,9 +503,9 @@
   }
   
   section.portada .box-frase-portada p {
-    font-family: var(--fuente-2);
-    font-weight: var(--grosor-fuente-light);
-    font-size: 15px;
+    font-family: var(--fuente-1);
+    font-weight: var(--grosor-fuente-regular);
+    font-size: 25px;
     text-align: center;
     color: var(--color-4);
   }

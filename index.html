@@ -22,6 +22,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
       <!-- Favicons -->
       <link rel="shortcut icon" href="img/Isa.ico">
       <!-- <link rel="icon" sizes="16x16 32x32 64x64" href="https://fixdate.io/modelo-invitacion/74/img/faviconit/favicon.ico">
@@ -211,7 +212,7 @@
                      </div>
                      <div class="info-box">
                         <h6>Dirección</h6>
-                        <p>Pendiente xxxxx</p>
+                        <p>Salida Sur, A 500 mtrs de glorieta Brisas del Valle</p>
                         <a href="#" data-evento="Fiesta" class="boton modal-como-llegar">¿Cómo llegar?</a>
                      </div>
                   </div>
@@ -669,7 +670,7 @@
                      <h5 class="modal-title"></h5>
                   </div>
                   <div class="modal-body">
-                     <div id="googleMap"></div>
+                     <iframe id="googleMap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7961.59327694!2d-76.297163!3d3.8537780000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39e561ae218207%3A0x1ccc8574b77d6614!2sSalon%20para%20Eventos%20Villa%20Campestre!5e0!3m2!1ses!2sco!4v1722176813990!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                   <div class="modal-footer">
                      <a class="boton ampliar-mapa" target="_blank" href="#">Ampliar mapa</a>
@@ -1576,7 +1577,7 @@
            $('#modalMapa .modal-title').text(titleModalMapa);
          
            // Genero el link para ampliar mapa
-           $('.ampliar-mapa').attr('href', 'https://www.google.com/maps/search/?api=1&query=' + latitudMapa + ',' + longitudMapa);
+           $('.ampliar-mapa').attr('href', 'https://maps.app.goo.gl/VZbHTkNSNduRAWSq5' );              
          
            // Cambio mapa
            initMap(latitudMapa, longitudMapa);
