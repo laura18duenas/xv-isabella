@@ -505,7 +505,7 @@
   section.portada .box-frase-portada p {
     font-family: var(--fuente-1);
     font-weight: var(--grosor-fuente-regular);
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     color: var(--color-4);
   }
@@ -931,8 +931,8 @@
     color: var(--color-4);
     font-family: var(--fuente-1);
     font-weight: var(--grosor-fuente-bold);
-    text-transform: uppercase;
-    font-size: 22px
+    /* text-transform: uppercase; */
+    font-size: 30px
   }
   
   section.fiesta .item-fiesta p {
